@@ -1,0 +1,10 @@
+# Copy this to `.env`, then fill in these values
+
+OPENPAWS_KNOWLEDGE_BASE_REST_ENDPOINT = ""
+OPENPAWS_KNOWLEDGE_BASE_READONLY_API_KEY = ""
+OPENPAWS_OPEN_AI_KEY = ""  # Key used for formulating queries to the knowledge graph, not for agent's text generation
+
+# Next we need an endpoint and API key for a LangChain tools-compatible model.  Actually the code assumes that it is
+# specifically on  Azure.  Tested with gpt-4o only.
+AZURE_OPENAI_ENDPOINT = ""
+AZURE_OPENAI_KEY = ""
